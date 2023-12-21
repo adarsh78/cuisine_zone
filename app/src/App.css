@@ -1,0 +1,55 @@
+.mainContainer {
+    background-color: #3f3e3e;
+}
+
+.headerContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 0;
+    height: 245px;
+}
+
+.logo-search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-bar input {
+    border: 1px solid red;
+    outline: none;
+    background: transparent;
+    padding: 0 10px;
+    font-size: 16px;
+    font-weight: 400;
+    width: 285px;
+    height: 40px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+input::placeholder{
+    color: #ffffff;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.buttons button {
+    background-color: #a23434;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.buttons button:hover {
+    cursor: pointer;
+    background-color: #801313;
+}
+

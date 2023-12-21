@@ -1,0 +1,63 @@
+.content {
+    background-image: url("../assets/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: calc(100vh - 245px);
+}
+
+.card-container {
+    max-width: 1060px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 70px 0;
+}
+
+.foodCard{
+    position: relative;
+}
+
+.foodItem {
+    width: 340px;
+    height: 167px;
+    display: flex;
+    gap: 3px;
+    color: #ffffff;
+    border-radius: 19.447px;
+    border: 0.659px solid #98F9FF;
+    background: url(<path-to-image>), lightgray 0% 0% / 50.8334219455719px 50.8334219455719px repeat, radial-gradient(151.92% 127.02% at 15.32% 21.04%, rgba(165, 239, 255, 0.20) 0%, rgba(110, 191, 244, 0.04) 77.08%, rgba(70, 144, 212, 0.00) 100%);
+    background-blend-mode: overlay, normal;
+    backdrop-filter: blur(13.184196472167969px);
+}
+
+.foodItem h3 {
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 20px;
+    line-height: 30px;
+}
+
+.foodItem p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.price-btn {
+    background-color: #a23434;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 99;
+    bottom: 14px;
+    right: 14px;
+
+}
+
+.price-btn:hover {
+    cursor: pointer;
+    background-color: #801313;
+}
